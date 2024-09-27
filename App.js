@@ -6,7 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import HomeScreen from './src/screen/HomeScreen';
 const App = () => {
-    console.log('"Naveen"');
+    // console.log('"Naveen"');
       const Stack = createNativeStackNavigator();
   return (
     <NavigationContainer>
